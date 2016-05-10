@@ -1,0 +1,82 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+.icon-block {
+ padding: 0 15px;
+}
+.icon-block .material-icons {
+ font-size: inherit;
+}
+nav {
+ padding-top: 5px;
+ height: 69px;
+ line-height: 15px;
+ border-bottom: solid 1px #9f8f66;
+ background: #c7b37f; /* Old browsers */
+ background: -moz-linear-gradient(top,  #c7b37f 0%, #f1e8ca 100%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(top,  #c7b37f 0%,#f1e8ca 100%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to bottom,  #c7b37f 0%,#f1e8ca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7b37f', endColorstr='#f1e8ca',GradientType=0 ); /* IE6-9 */
+}
+nav ul li {
+ padding: 24px 0;
+}
+nav ul a {
+ color: #5b4629;
+ border-right: solid 1px #5b4629;
+}
+nav ul a:hover { 
+ background-color: transparent;
+ color: #281c0c;
+}
+.border-menu-off {
+ border-right: none;
+}
+nav .button-collapse {
+ float: right;
+ color: #9f8f66;
+}
+.side-nav li i {
+ float: left;
+ color: #5b4629;
+ padding: 2px 8px 0 8px;
+}
+.side-nav li.active, .side-nav a:hover {
+  background-color: rgba(214, 192, 162, 0.20);
+}
+.side-nav a {
+  color: #5b4629;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 600px) {
+  nav ul li {
+   padding: 0px 0 !important;
+  }
+  nav ul a {
+   border-right: none !important;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  nav ul li {
+   padding: 0px 0 !important;
+  }
+  nav ul a {
+   border-right: none !important;
+   color: red;
+  }
+}
+
+@media only screen and (max-width: 1365px) {
+  nav .container {
+   width: 75% !important;
+  }
+}
+@media only screen and (max-width: 1166px) {
+  nav .container {
+   width: 88% !important;
+  }
+}
