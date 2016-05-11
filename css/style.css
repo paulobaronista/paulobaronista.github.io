@@ -40,6 +40,15 @@ nav .button-collapse {
  float: right;
  color: #9f8f66;
 }
+nav .brand-logo {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+  white-space: nowrap;
+  z-index: 999;
+}
 .side-nav li i {
  float: left;
  color: #5b4629;
@@ -49,15 +58,34 @@ nav .button-collapse {
   background-color: rgba(214, 192, 162, 0.20);
 }
 .side-nav a {
-  color: #5b4629;
-  text-transform: uppercase;
+ color: #5b4629;
+ text-transform: uppercase;
 }
+.btn-caption-d {
+ padding: 0 2.1rem;
+}
+.card {
+ /* background-color: rgba(206,229,205,0.8); */
+ color: #263238;
+ background-color: rgba(255,255,255,0.8);
+}
+.card .card-action {
+ background-color: transparent;
+ border-top: 1px solid rgba(38, 50, 56, 0.2);
+}
+.slider .slides li .caption p {
+ color: #263238;
+}
+
 @media only screen and (max-width: 600px) {
   nav ul li {
    padding: 0px 0 !important;
   }
   nav ul a {
    border-right: none !important;
+  }
+  .card .card-action a {
+   margin: 5px 0 5px 0;
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 992px) {
@@ -68,8 +96,38 @@ nav .button-collapse {
    border-right: none !important;
    color: red;
   }
+  .card .card-action a {
+   margin: 5px 0 5px 0;
+  }
 }
 
+@media only screen and (min-width: 601px) {
+  .slider {
+   margin-bottom: 50px;
+   background-color: #777;
+  }
+  .slider, .slides {
+   height: 455px !important;
+   background-color: transparent !important;
+  }
+  .slider .indicators {
+    bottom: -40px;
+  }
+}
+
+@media only screen and (min-width: 1365px) {
+  nav .container {
+   width: 75% !important;
+  }
+  .slider .slides li .caption {
+   right: 15%;
+   left: auto;
+   width: 20%;
+  }
+  .card .card-action a {
+   margin: 5px 0 5px 0;
+  }
+}
 @media only screen and (max-width: 1365px) {
   nav .container {
    width: 75% !important;
