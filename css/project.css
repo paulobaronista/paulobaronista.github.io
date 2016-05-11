@@ -1,0 +1,12 @@
+.busca-localidades {
+ position: relative;
+ float: left;
+ width: 100%;
+ padding-top: 10px;
+ padding-bottom: 2px;
+ background: #c7b37f; /* Old browsers */
+ background: -moz-linear-gradient(top,  #c7b37f 0%, #f1e8ca 100%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(top,  #c7b37f 0%,#f1e8ca 100%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to bottom,  #c7b37f 0%,#f1e8ca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7b37f', endColorstr='#f1e8ca',GradientType=0 ); /* IE6-9 */	
+}

@@ -14,6 +14,7 @@
 </head>
 <body>
 
+ <!-- ##### Menu ##### -->
 
   <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container">
@@ -42,7 +43,10 @@
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
- 
+  <!-- ##### Menu ##### -->
+
+
+ <!-- ##### Slider Topo ##### -->
   <div class="slider">
     <ul class="slides">
 
@@ -99,9 +103,9 @@
 
     </ul>
   </div>
+ <!-- ##### Slider Topo ##### -->
 
-
-<!-- Modal -->
+<!-- ##### Modal Slider ##### -->
 
   <!-- Modal Structure -->
   <div id="modal1" class="modal modal-fixed-footer">
@@ -113,10 +117,43 @@
       <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Fechar</a>
     </div>
   </div>
-  
-<!-- Modal -->
+
+<!-- ##### Modal Slider ##### -->
 
 
+<div class="busca-localidades">
+ <div class="container">
+
+  <div class="row">
+
+    <div class="col s12 m6">
+        <div class="input-field col s12">
+          <select>
+            <option value="" disabled selected>Selecione a cidade de origem</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select>
+          <label>Origem</label>
+        </div>   
+    </div>
+   
+    <div class="col s12 m6">
+        <div class="input-field col s12">
+          <select>
+            <option value="" disabled selected>Selecione a cidade de destino</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+          </select>
+          <label>Destino</label>
+        </div>    
+    </div>
+
+ </div>
+
+</div>
+</div>
 
   <div class="container">
     <div class="section">
@@ -203,13 +240,18 @@
   <script type="text/javascript">
     
     $(document).ready(function(){
+      //Chamada Slider
       $('.slider').slider();
       
       // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
       $('.modal-trigger').leanModal();
+      
+      // Chamada select destinos
+      $('select').material_select();
     });
         
   </script>
 
   </body>
 </html>
+      

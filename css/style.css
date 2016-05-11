@@ -76,6 +76,19 @@ nav .brand-logo {
 .slider .slides li .caption p {
  color: #263238;
 }
+.slider .indicators {
+  z-index: 9999;
+  left: auto;
+}
+.busca-localidades .row {
+ margin-bottom: 0px;
+}
+.select-wrapper + label {
+ font-size: 1.3rem;
+ top: -15px;
+ letter-spacing: 1px;
+ color: #555555;
+}
 
 @media only screen and (max-width: 600px) {
   nav ul li {
@@ -86,6 +99,14 @@ nav .brand-logo {
   }
   .card .card-action a {
    margin: 5px 0 5px 0;
+  }
+  .slider .indicators {
+   z-index: 333;
+   left: auto;
+  }
+  .slider {
+   height: 400px !important;
+   background-color: transparent !important;
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 992px) {
@@ -102,17 +123,15 @@ nav .brand-logo {
 }
 
 @media only screen and (min-width: 601px) {
-  .slider {
-   margin-bottom: 50px;
-   background-color: #777;
-  }
+/*   .slider {
+ margin-bottom: 50px;
+ background-color: #777;
+} */
   .slider, .slides {
    height: 455px !important;
    background-color: transparent !important;
   }
-  .slider .indicators {
-    bottom: -40px;
-  }
+
 }
 
 @media only screen and (min-width: 1365px) {
