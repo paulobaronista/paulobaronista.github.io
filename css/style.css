@@ -88,6 +88,7 @@ nav .brand-logo {
  top: -15px;
  letter-spacing: 1px;
  color: #555555;
+ font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
