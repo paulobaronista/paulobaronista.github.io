@@ -14,13 +14,11 @@
  width: 100%;
  position: relative;
  float: left;
- background-color: #c8c8c8;
  padding-bottom: 4%;
 }
 .leilao-home .box-leilao {
  width: 90%;	
  margin: 0 auto;	
- background-color: #dedede;
  -webkit-border-radius: 5px;
  -moz-border-radius: 5px;
  border-radius: 5px;
@@ -31,11 +29,25 @@
  margin: 2% 0 -22px 0;
  font-weight: 100;
 }
-
-/* h1 {
-    font-size: 4.2rem;
-    line-height: 110%;
-    margin: 2.1rem 0 1.68rem;
-} */
-
-
+.page-footer h5 {
+ font-weight: 100;
+ font-size: 1.54rem;
+}
+.tt-cd-email span {
+ width: 80%;
+ display: block;
+ margin: 0 auto;
+}
+.tt-cd-email span i {
+ float: left;
+ color: white;
+}
+.color-input-cd {
+ color: #FFF !important;
+}
+.tt-cd-email .btn {
+ margin-top: 13px; 
+}
+.icones-app {
+ max-width: 128% !important;
+}
