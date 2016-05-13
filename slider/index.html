@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Demo: jQuery Mobile Slider Example with Swiper</title>
+<link rel="stylesheet" href="swiper.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.swiper-container { 
+    width: 95%; 
+    height: 300px; 
+}
+.swiper-slide { 
+    width: 32%; 
+    background: red; 
+    text-align: center; 
+    padding-top: 50%; 
+    font-size: 24px; 
+}
+@media only screen and (max-width: 600px) {
+ .swiper-slide { 
+  width: 100%; 
+  background: yellow; 
+ }
+}
+</style>
+</head>
+<body>
+ 
+<!-- Add Swiper slides here! -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">Hello</div>
+    <div class="swiper-slide">To</div>
+    <div class="swiper-slide">All</div>
+    <div class="swiper-slide">The</div>
+    <div class="swiper-slide">Readers</div>
+    <div class="swiper-slide">!!</div>
+    <div class="swiper-slide">Lennu.net</div>
+    <div class="swiper-slide">Swiper</div>
+  </div>
+
+  <!-- Add Arrows -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+
+
+</div>
+
+
+<script src="swiper.min.js" type="text/javascript"></script>
+ 
+<!-- Add the initialization JavaScript code here! -->
+<script>
+  var swiper = new Swiper('.swiper-container', { // HTML element selector
+    slidesPerView: "auto", // How many slides do we want per view? You can specify a number
+    spaceBetween: 10, // Space between the slides
+    freeMode: false, // Free rolling slider
+    loop: true, // Swiper loops your slides, and there is no ending point
+    loopedSlides: 8, // Safe option which needs to be set if you use slidesPerView: 'auto'
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    autoplay: 2500,
+    autoplayDisableOnInteraction: false,
+            paginationClickable: true,
+
+
+
+  });
+</script>
+
+ 
+</body>
+</html>
