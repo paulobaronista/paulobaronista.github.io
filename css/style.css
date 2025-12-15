@@ -768,7 +768,7 @@ header .container .info span {
     }
 
     @media (min-width: 1600px) {
-        background-position: 8% -83%;
+        background-position: 8% -78%;
         background-size: initial;
     }
 
@@ -788,7 +788,7 @@ header .container .info span {
     }
 
     @media (min-width: 1600px) {
-        background-position: 5% 30%;
+        background-position: 5% 25%;
         background-size: initial;
     }
 
