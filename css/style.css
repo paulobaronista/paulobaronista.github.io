@@ -79,9 +79,13 @@ body {
     background-size: 101%;
 }
 .container {
-    max-width: 1450px;
+    /* max-width: 1450px; */
+    max-width: 100%;
     margin: 0 auto;
-    /* background-color: antiquewhite; */
+
+    @media (min-width: 1600px) {
+        max-width: 1600px;
+    }
 }
 header .container {
     background: url('../img/bg-sol.png') no-repeat;
@@ -321,7 +325,7 @@ header .container .info span {
     @media (min-width: 767px) {
         font-size: 17px;
         line-height: 40px;
-        max-width: 765px;
+        max-width: 775px;
     }
 
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -345,7 +349,9 @@ header .container .info span {
         padding-top: 10px;
     }
 }
-.programacao .container {
+.programacao .container,
+.patrocinadores .container,
+.perguntas .container {
     position: relative;
 }
 .programacao .container .bg-05 {
@@ -356,6 +362,11 @@ header .container .info span {
     @media (min-width: 1025px) {
         background-position: -10% 110%;
         background-size: initial;
+    }
+
+    @media (min-width: 1600px) {
+        background-position: 0 110%;
+        background-size: 20%;
     }
 
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -472,7 +483,7 @@ header .container .info span {
     max-width: 28%;
 
     @media (min-width: 767px) {
-        top: -7%;
+        top: -8%;
         left: 10%;
         max-width: 100%;
     }
@@ -613,13 +624,13 @@ header .container .info span {
     background: none;
     border: none;
 }
-.programacao .table .wrapper table .sticky-col {
+/* .programacao .table .wrapper table .sticky-col {
     position: -webkit-sticky;
     position: sticky;
 }
 .programacao .table .wrapper table .first-col {
     left: 0;
-}
+} */
 .programacao .mapa {
     max-width: 90%;
     margin: 20px auto 0;
@@ -633,3 +644,300 @@ header .container .info span {
         max-width: 90%;
     }
 }
+
+.patrocinadores {
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+    @media (min-width: 1025px) {
+        padding-top: 52px;
+        padding-bottom: 85px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        padding-top: 52px;
+        padding-bottom: 85px;
+    }
+}
+.patrocinadores .bg-07 {
+    background: url('../img/bg-sol_02.png') no-repeat;
+    background-position: 130% 110%;
+    background-size: 40%;
+
+    @media (min-width: 1025px) {
+        background-position: 115% 170%;
+        background-size: initial;
+    }
+
+    @media (min-width: 1600px) {
+        background-position: 100% 160%;
+        background-size: 22%;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        background-position: 130% 160%;
+    }
+}
+.patrocinadores .title {
+    font-family: '8 Heavy';
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 50px;
+    color: #FFF;
+    text-align: center;
+
+    @media (min-width: 767px) {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 40px;
+        line-height: 60px; 
+    }
+}
+.patrocinadores .box {
+    max-width: 860px;
+    margin: 25px auto 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+
+    @media (min-width: 767px) {
+        margin: 75px auto 0;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 75px;
+        grid-row-gap: 75px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        max-width: 650px;
+    }
+}
+.patrocinadores .box img {
+    margin: 0 auto;
+}
+
+.video .container {
+    max-width: 90%;
+    margin-bottom: 15px;
+    @media (min-width: 767px) {
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+}
+.perguntas {
+    @media (min-width: 767px) {
+        padding-top: 66px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        padding-top: 20px;
+    }
+}
+.perguntas .faq .bg-08 {
+    background: url('../img/oculos_01.png') no-repeat;
+    background-position: 144% 14%;
+    background-size: 50%;
+
+    @media (min-width: 1025px) {
+        background-position: 110% -39%;
+        background-size: initial;
+    }
+
+    @media (min-width: 1600px) {
+        background-position: 110% -39%;
+        background-size: initial;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        background-position: 145% -14%;
+        background-size: 50%;
+    }
+}
+.perguntas .faq .bg-09 {
+    background: url('../img/bg-sol_03.png') no-repeat;
+    background-position: -15% -62%;
+    background-size: 22%;
+
+    @media (min-width: 1025px) {
+        background-position: 8% -83%;
+        background-size: initial;
+    }
+
+    @media (min-width: 1600px) {
+        background-position: 8% -83%;
+        background-size: initial;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        background-position: -8% -83%;
+        background-size: initial;
+    }
+}
+.perguntas .faq .bg-10 {
+    background: url('../img/fruta_02.png') no-repeat;
+    background-position: -12% 73%;
+    background-size: 22%;
+
+    @media (min-width: 1025px) {
+        background-position: 7% 25%;
+        background-size: 15%;
+    }
+
+    @media (min-width: 1600px) {
+        background-position: 5% 30%;
+        background-size: initial;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        background-position: -12% 43%;
+        background-size: 22%;
+    }
+}
+.perguntas .faq .bg-11 {
+    position: absolute;
+    bottom: 0;
+    right: -19%;
+    max-width: 26%;
+
+    @media (min-width: 767px) {
+        bottom: 2%;
+        right: 10%;
+        max-width: 100%;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        bottom: 0;
+        right: 0;
+        max-width: 100%;
+    }
+}
+.perguntas .faq {
+    background: #FFC619;
+    max-width: 1330px;
+    margin: 0 auto 0;
+    position: relative;
+    padding-bottom: 5%;
+    overflow: hidden;
+
+    @media (min-width: 767px) {
+        background: url('../img/bg-faq.svg') no-repeat;
+        background-size: 82%;
+        background-position: top center;
+        padding-top: 9%;
+        padding-bottom: 12%;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        background: url('../img/bg-faq.svg') no-repeat;
+        background-position: top center;
+        background-size: cover;
+        padding-top: 20%;
+        padding-bottom: 5%;
+    }
+}
+.perguntas .faq .title {
+    font-family: '8 Heavy';
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 35px;
+    color: #2870F6;
+    text-align: center;
+    padding: 10% 20px 10px;
+
+    @media (min-width: 767px) {
+        font-size: 50px;
+        line-height: 50px;
+        padding: 0 0 32px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 40px;
+        line-height: 60px;
+        padding: 0 0 30px; 
+    }
+}
+.perguntas .faq .tabs {
+    max-width: 866px;
+    margin: 0 auto 30px;
+    padding: 0 20px;
+
+    @media (min-width: 767px) {
+        margin: 0 auto 54px;
+    }
+}
+.perguntas .faq h4 {
+    color: #211F1F;
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 24px;
+    text-decoration-line: underline;
+
+    @media (min-width: 767px) {
+        font-size: 28px;
+        line-height: 28px;
+    }
+}
+.perguntas .faq p {
+    color: #211F1F;
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+
+    @media (min-width: 767px) {
+        font-size: 18px;
+        line-height: 45px;
+    }
+}
+footer {
+    .box {
+        width: 310px;
+        margin: 30px auto 0;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+
+        @media (min-width: 767px) {
+            margin: 0 auto 0;
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            margin: 30px auto 0;
+        }
+
+        img {
+            margin: 0 auto;
+        }
+    }
+
+    p {
+        color: #FFF;
+        text-align: center;
+        font-family: "Boldonse", system-ui;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        margin-top: 13px;
+        margin-bottom: 20px;
+
+        @media (min-width: 767px) {
+            font-size: 18px;
+            line-height: 50px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
