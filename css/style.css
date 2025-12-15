@@ -759,7 +759,7 @@ header .container .info span {
 }
 .perguntas .faq .bg-09 {
     background: url('../img/bg-sol_03.png') no-repeat;
-    background-position: -15% -62%;
+    background-position: -15% -40%;
     background-size: 22%;
 
     @media (min-width: 1025px) {
@@ -779,7 +779,7 @@ header .container .info span {
 }
 .perguntas .faq .bg-10 {
     background: url('../img/fruta_02.png') no-repeat;
-    background-position: -12% 70%;
+    background-position: -12% 60%;
     background-size: 22%;
 
     @media (min-width: 1025px) {
@@ -873,23 +873,24 @@ header .container .info span {
     color: #211F1F;
     text-align: center;
     font-family: "Boldonse", system-ui;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 40px;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
     text-decoration-line: underline;
 
     @media (min-width: 767px) {
         font-size: 28px;
         line-height: 28px;
+        margin-bottom: 24px;
     }
 }
 .perguntas .faq p {
     color: #211F1F;
     text-align: center;
     font-family: "Boldonse", system-ui;
-    font-size: 15px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 35px;
@@ -919,6 +920,10 @@ footer {
 
         img {
             margin: 0 auto;
+            max-width: 50%;
+            @media (min-width: 767px) {
+                max-width: 100%;
+            }
         }
     }
 
@@ -926,7 +931,7 @@ footer {
         color: #FFF;
         text-align: center;
         font-family: "Boldonse", system-ui;
-        font-size: 15px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 400;
         line-height: 35px;
