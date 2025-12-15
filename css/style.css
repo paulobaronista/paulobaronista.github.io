@@ -779,7 +779,7 @@ header .container .info span {
 }
 .perguntas .faq .bg-10 {
     background: url('../img/fruta_02.png') no-repeat;
-    background-position: -12% 73%;
+    background-position: -12% 70%;
     background-size: 22%;
 
     @media (min-width: 1025px) {
