@@ -43,6 +43,7 @@ table {
 }
 img {
     max-width: 100%;
+    height: auto;
     display: block;
 }
 * {
@@ -869,7 +870,7 @@ header .container .info span {
         margin: 0 auto 54px;
     }
 }
-.perguntas .faq h4 {
+.perguntas .faq h2 {
     color: #211F1F;
     text-align: center;
     font-family: "Boldonse", system-ui;
