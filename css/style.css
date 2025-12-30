@@ -376,7 +376,7 @@ header .container .info span {
 }
 .programacao .container .bg-06 {
     background: url('../img/fruta_03.png') no-repeat;
-    background-position: 110% 100%;
+    background-position: 110% 120%;
     background-size: 20%;
 
     @media (min-width: 1025px) {
@@ -408,7 +408,7 @@ header .container .info span {
 }
 .programacao .title-1 {
     max-width: 260px;
-    margin: 30px auto 0;
+    margin: 30px auto 32px;
     line-height: 30px;
     @media (min-width: 767px) {
         max-width: 100%;
@@ -417,7 +417,7 @@ header .container .info span {
 .programacao .title-2 {
     margin-top: 30px;
     @media (min-width: 767px) {
-        margin-top: 50px;
+        margin-top: 120px;
     }
 }
 .programacao .description {
@@ -502,7 +502,7 @@ header .container .info span {
     max-width: 1330px;
     margin: 0 auto;
     padding-top: 20%;
-    padding-bottom: 15%;
+    padding-bottom: 30%;
 
     @media (min-width: 767px) {
         background-size: 90%;
@@ -514,8 +514,8 @@ header .container .info span {
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
         padding-top: 12%;
         background-size: cover;
-        padding-top: 10%;
-        padding-bottom: 10%;
+        padding-top: 13%;
+        padding-bottom: 17%;
     }
 }
 .programacao .table .title {
@@ -645,21 +645,6 @@ header .container .info span {
         max-width: 90%;
     }
 }
-
-.patrocinadores {
-    padding-top: 20px;
-    padding-bottom: 30px;
-
-    @media (min-width: 1025px) {
-        padding-top: 52px;
-        padding-bottom: 85px;
-    }
-
-    @media only screen and (min-width: 768px) and (max-width: 1024px) {
-        padding-top: 52px;
-        padding-bottom: 85px;
-    }
-}
 .patrocinadores .bg-07 {
     background: url('../img/bg-sol_02.png') no-repeat;
     background-position: 130% 110%;
@@ -671,7 +656,7 @@ header .container .info span {
     }
 
     @media (min-width: 1600px) {
-        background-position: 100% 160%;
+        background-position: 100% 190%;
         background-size: 22%;
     }
 
@@ -686,20 +671,23 @@ header .container .info span {
     line-height: 50px;
     color: #FFF;
     text-align: center;
+    padding-top: 20px;
 
     @media (min-width: 767px) {
+        padding-top: 52px;
         font-size: 50px;
         line-height: 50px;
     }
 
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        padding-top: 52px;
         font-size: 40px;
         line-height: 60px; 
     }
 }
 .patrocinadores .box {
     max-width: 860px;
-    margin: 25px auto 0;
+    margin: 25px auto 30px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -707,7 +695,7 @@ header .container .info span {
     grid-row-gap: 25px;
 
     @media (min-width: 767px) {
-        margin: 75px auto 0;
+        margin: 75px auto 85px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 75px;
@@ -740,7 +728,7 @@ header .container .info span {
 }
 .perguntas .faq .bg-08 {
     background: url('../img/oculos_01.png') no-repeat;
-    background-position: 144% 14%;
+    background-position: 144% 2%;
     background-size: 50%;
 
     @media (min-width: 1025px) {
@@ -760,16 +748,16 @@ header .container .info span {
 }
 .perguntas .faq .bg-09 {
     background: url('../img/bg-sol_03.png') no-repeat;
-    background-position: -15% -40%;
+    background-position: -15% -70%;
     background-size: 22%;
 
     @media (min-width: 1025px) {
-        background-position: 8% -83%;
+        background-position: 8% -103%;
         background-size: initial;
     }
 
     @media (min-width: 1600px) {
-        background-position: 8% -78%;
+        background-position: 8% -90%;
         background-size: initial;
     }
 
@@ -784,12 +772,12 @@ header .container .info span {
     background-size: 22%;
 
     @media (min-width: 1025px) {
-        background-position: 7% 25%;
+        background-position: 7% 5%;
         background-size: 15%;
     }
 
     @media (min-width: 1600px) {
-        background-position: 5% 25%;
+        background-position: 5% 5%;
         background-size: initial;
     }
 
@@ -821,22 +809,22 @@ header .container .info span {
     max-width: 1330px;
     margin: 0 auto 0;
     position: relative;
-    padding-bottom: 5%;
+    padding-bottom: 12%;
     overflow: hidden;
 
     @media (min-width: 767px) {
         background: url('../img/bg-faq.svg') no-repeat;
         background-size: 82%;
         background-position: top center;
-        padding-top: 9%;
-        padding-bottom: 12%;
+        /* padding-top: 9%;
+        padding-bottom: 12%; */
     }
 
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
         background: url('../img/bg-faq.svg') no-repeat;
         background-position: top center;
         background-size: cover;
-        padding-top: 20%;
+        padding-top: 120px;
         padding-bottom: 5%;
     }
 }
@@ -852,7 +840,7 @@ header .container .info span {
     @media (min-width: 767px) {
         font-size: 50px;
         line-height: 50px;
-        padding: 0 0 32px;
+        padding: 9% 0 32px;
     }
 
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -912,7 +900,7 @@ footer {
         grid-row-gap: 0px;
 
         @media (min-width: 767px) {
-            margin: 0 auto 0;
+            margin: 30px auto 0;
         }
 
         @media only screen and (min-width: 768px) and (max-width: 1024px) {
