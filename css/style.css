@@ -696,8 +696,8 @@ header .container .info span {
 
     @media (min-width: 767px) {
         margin: 75px auto 85px;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
         grid-column-gap: 75px;
         grid-row-gap: 75px;
     }
@@ -894,7 +894,7 @@ footer {
         width: 310px;
         margin: 30px auto 0;
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-template-rows: 1fr;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
