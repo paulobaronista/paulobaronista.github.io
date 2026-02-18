@@ -50,34 +50,475 @@ img {
     margin:0;
     padding:0;
 }
-.boldonse-regular {
-  font-family: "Boldonse", system-ui;
-  font-weight: 400;
-  font-style: normal;
+/* @font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-12PtCompressed.eot');
+    src: url('../fonts/OhnoFatfaceDemo-12PtCompressed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-12PtCompressed.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-12PtCompressed.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-12PtCompressed.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-12PtCompressed.svg#OhnoFatfaceDemo-12PtCompressed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-    font-family: '8 Heavy';
-    src: url('../fonts/8-Heavy.eot');
-    src: url('../fonts/8-Heavy.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/8-Heavy.woff2') format('woff2'),
-         url('../fonts/8-Heavy.woff') format('woff'),
-         url('../fonts/8-Heavy.ttf')  format('truetype'),
-         url('../fonts/8-Heavy.svg#8 Heavy') format('svg');
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-12PtCondensed.eot');
+    src: url('../fonts/OhnoFatfaceDemo-12PtCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-12PtCondensed.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-12PtCondensed.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-12PtCondensed.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-12PtCondensed.svg#OhnoFatfaceDemo-12PtCondensed') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-    font-family: 'QuimbyMayoral';
-    src: url('../fonts/Quimby.eot');
-    src: url('../fonts/Quimby.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Quimby.woff2') format('woff2'),
-         url('../fonts/Quimby.woff') format('woff'),
-         url('../fonts/Quimby.ttf')  format('truetype'),
-         url('../fonts/Quimby.svg#QuimbyMayoral') format('svg');
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-12Pt.eot');
+    src: url('../fonts/OhnoFatfaceDemo-12Pt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-12Pt.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-12Pt.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-12Pt.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-12Pt.svg#OhnoFatfaceDemo-12Pt') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-12PtSquished.eot');
+    src: url('../fonts/OhnoFatfaceDemo-12PtSquished.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-12PtSquished.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-12PtSquished.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-12PtSquished.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-12PtSquished.svg#OhnoFatfaceDemo-12PtSquished') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-12PtNarrow.eot');
+    src: url('../fonts/OhnoFatfaceDemo-12PtNarrow.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-12PtNarrow.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-12PtNarrow.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-12PtNarrow.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-12PtNarrow.svg#OhnoFatfaceDemo-12PtNarrow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-14Pt.eot');
+    src: url('../fonts/OhnoFatfaceDemo-14Pt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-14Pt.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-14Pt.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-14Pt.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-14Pt.svg#OhnoFatfaceDemo-14Pt') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-14PtCondensed.eot');
+    src: url('../fonts/OhnoFatfaceDemo-14PtCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-14PtCondensed.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-14PtCondensed.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-14PtCondensed.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-14PtCondensed.svg#OhnoFatfaceDemo-14PtCondensed') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-14PtNarrow.eot');
+    src: url('../fonts/OhnoFatfaceDemo-14PtNarrow.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-14PtNarrow.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-14PtNarrow.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-14PtNarrow.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-14PtNarrow.svg#OhnoFatfaceDemo-14PtNarrow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-14PtCompressed.eot');
+    src: url('../fonts/OhnoFatfaceDemo-14PtCompressed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-14PtCompressed.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-14PtCompressed.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-14PtCompressed.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-14PtCompressed.svg#OhnoFatfaceDemo-14PtCompressed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-14PtSquished.eot');
+    src: url('../fonts/OhnoFatfaceDemo-14PtSquished.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-14PtSquished.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-14PtSquished.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-14PtSquished.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-14PtSquished.svg#OhnoFatfaceDemo-14PtSquished') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-16PtCompressed.eot');
+    src: url('../fonts/OhnoFatfaceDemo-16PtCompressed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-16PtCompressed.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-16PtCompressed.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-16PtCompressed.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-16PtCompressed.svg#OhnoFatfaceDemo-16PtCompressed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-16Pt.eot');
+    src: url('../fonts/OhnoFatfaceDemo-16Pt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-16Pt.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-16Pt.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-16Pt.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-16Pt.svg#OhnoFatfaceDemo-16Pt') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-16PtCondensed.eot');
+    src: url('../fonts/OhnoFatfaceDemo-16PtCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-16PtCondensed.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-16PtCondensed.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-16PtCondensed.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-16PtCondensed.svg#OhnoFatfaceDemo-16PtCondensed') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-16PtSquished.eot');
+    src: url('../fonts/OhnoFatfaceDemo-16PtSquished.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-16PtSquished.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-16PtSquished.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-16PtSquished.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-16PtSquished.svg#OhnoFatfaceDemo-16PtSquished') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-16PtNarrow.eot');
+    src: url('../fonts/OhnoFatfaceDemo-16PtNarrow.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-16PtNarrow.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-16PtNarrow.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-16PtNarrow.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-16PtNarrow.svg#OhnoFatfaceDemo-16PtNarrow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-18Pt.eot');
+    src: url('../fonts/OhnoFatfaceDemo-18Pt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-18Pt.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-18Pt.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-18Pt.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-18Pt.svg#OhnoFatfaceDemo-18Pt') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-18PtCondensed.eot');
+    src: url('../fonts/OhnoFatfaceDemo-18PtCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-18PtCondensed.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-18PtCondensed.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-18PtCondensed.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-18PtCondensed.svg#OhnoFatfaceDemo-18PtCondensed') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-18PtCompressed.eot');
+    src: url('../fonts/OhnoFatfaceDemo-18PtCompressed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-18PtCompressed.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-18PtCompressed.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-18PtCompressed.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-18PtCompressed.svg#OhnoFatfaceDemo-18PtCompressed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-18PtSquished.eot');
+    src: url('../fonts/OhnoFatfaceDemo-18PtSquished.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-18PtSquished.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-18PtSquished.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-18PtSquished.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-18PtSquished.svg#OhnoFatfaceDemo-18PtSquished') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-24Pt.eot');
+    src: url('../fonts/OhnoFatfaceDemo-24Pt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-24Pt.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-24Pt.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-24Pt.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-24Pt.svg#OhnoFatfaceDemo-24Pt') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-18PtNarrow.eot');
+    src: url('../fonts/OhnoFatfaceDemo-18PtNarrow.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-18PtNarrow.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-18PtNarrow.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-18PtNarrow.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-18PtNarrow.svg#OhnoFatfaceDemo-18PtNarrow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-24PtCondensed.eot');
+    src: url('../fonts/OhnoFatfaceDemo-24PtCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-24PtCondensed.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-24PtCondensed.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-24PtCondensed.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-24PtCondensed.svg#OhnoFatfaceDemo-24PtCondensed') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-24PtCompressed.eot');
+    src: url('../fonts/OhnoFatfaceDemo-24PtCompressed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-24PtCompressed.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-24PtCompressed.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-24PtCompressed.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-24PtCompressed.svg#OhnoFatfaceDemo-24PtCompressed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-24PtNarrow.eot');
+    src: url('../fonts/OhnoFatfaceDemo-24PtNarrow.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-24PtNarrow.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-24PtNarrow.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-24PtNarrow.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-24PtNarrow.svg#OhnoFatfaceDemo-24PtNarrow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-24PtSquished.eot');
+    src: url('../fonts/OhnoFatfaceDemo-24PtSquished.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-24PtSquished.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-24PtSquished.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-24PtSquished.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-24PtSquished.svg#OhnoFatfaceDemo-24PtSquished') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-36Pt.eot');
+    src: url('../fonts/OhnoFatfaceDemo-36Pt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-36Pt.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-36Pt.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-36Pt.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-36Pt.svg#OhnoFatfaceDemo-36Pt') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-36PtCompressed.eot');
+    src: url('../fonts/OhnoFatfaceDemo-36PtCompressed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-36PtCompressed.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-36PtCompressed.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-36PtCompressed.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-36PtCompressed.svg#OhnoFatfaceDemo-36PtCompressed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-36PtNarrow.eot');
+    src: url('../fonts/OhnoFatfaceDemo-36PtNarrow.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-36PtNarrow.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-36PtNarrow.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-36PtNarrow.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-36PtNarrow.svg#OhnoFatfaceDemo-36PtNarrow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-36PtCondensed.eot');
+    src: url('../fonts/OhnoFatfaceDemo-36PtCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-36PtCondensed.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-36PtCondensed.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-36PtCondensed.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-36PtCondensed.svg#OhnoFatfaceDemo-36PtCondensed') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ohno Fatface Demo';
+    src: url('../fonts/OhnoFatfaceDemo-36PtSquished.eot');
+    src: url('../fonts/OhnoFatfaceDemo-36PtSquished.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OhnoFatfaceDemo-36PtSquished.woff2') format('woff2'),
+        url('../fonts/OhnoFatfaceDemo-36PtSquished.woff') format('woff'),
+        url('../fonts/OhnoFatfaceDemo-36PtSquished.ttf') format('truetype'),
+        url('../fonts/OhnoFatfaceDemo-36PtSquished.svg#OhnoFatfaceDemo-36PtSquished') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+} */
+
+
+
+
+
+
+
+
+
+@import url("https://p.typekit.net/p.css?s=1&k=vkl5ayt&ht=tk&f=44606.44610.45033.45036.45042.45045.45051.45054.45024.45027&a=170311875&app=typekit&e=css");
+
+@font-face {
+font-family:"ohno-fatface";
+src:url("https://use.typekit.net/af/67ad4a/00000000000000007735c81b/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/67ad4a/00000000000000007735c81b/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/67ad4a/00000000000000007735c81b/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ohno-fatface";
+src:url("https://use.typekit.net/af/1fb9ff/00000000000000007735c837/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/1fb9ff/00000000000000007735c837/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/1fb9ff/00000000000000007735c837/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ohno-fatface-compressed";
+src:url("https://use.typekit.net/af/221099/00000000000000007735c834/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/221099/00000000000000007735c834/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/221099/00000000000000007735c834/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ohno-fatface-compressed";
+src:url("https://use.typekit.net/af/a7a28a/00000000000000007735c83e/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/a7a28a/00000000000000007735c83e/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/a7a28a/00000000000000007735c83e/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ohno-fatface-condensed";
+src:url("https://use.typekit.net/af/cb470e/00000000000000007735c819/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/cb470e/00000000000000007735c819/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/cb470e/00000000000000007735c819/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ohno-fatface-condensed";
+src:url("https://use.typekit.net/af/96933c/00000000000000007735c831/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/96933c/00000000000000007735c831/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/96933c/00000000000000007735c831/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ohno-fatface-narrow";
+src:url("https://use.typekit.net/af/f26677/00000000000000007735c815/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/f26677/00000000000000007735c815/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/f26677/00000000000000007735c815/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ohno-fatface-narrow";
+src:url("https://use.typekit.net/af/8fef53/00000000000000007735c82d/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/8fef53/00000000000000007735c82d/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/8fef53/00000000000000007735c82d/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ohno-fatface-squished";
+src:url("https://use.typekit.net/af/946972/00000000000000007735c830/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/946972/00000000000000007735c830/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/946972/00000000000000007735c830/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ohno-fatface-squished";
+src:url("https://use.typekit.net/af/443857/00000000000000007735c82b/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/443857/00000000000000007735c82b/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/443857/00000000000000007735c82b/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Text Pro';
+    src: url('../fonts/NHaasGroteskTXPro-Bd.eot');
+    src: url('../fonts/NHaasGroteskTXPro-Bd.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NHaasGroteskTXPro-Bd.woff2') format('woff2'),
+        url('../fonts/NHaasGroteskTXPro-Bd.woff') format('woff'),
+        url('../fonts/NHaasGroteskTXPro-Bd.ttf') format('truetype'),
+        url('../fonts/NHaasGroteskTXPro-Bd.svg#NHaasGroteskTXPro-Bd') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     /* background: #FF6200;*/
     /* background: linear-gradient(0deg,rgba(255, 98, 0, 1) 0%, rgba(255, 128, 0, 1) 100%); */
-    background: url('../img/bg-laranja.svg') no-repeat #FF6200;
-    background-size: 101%;
+    /* background: url('../img/bg-laranja.svg') no-repeat #FF6200;
+    background-size: 101%; */
 }
 .container {
     /* max-width: 1450px; */
@@ -719,171 +1160,271 @@ header .container .info span {
         margin-bottom: 0;
     }
 }
-.perguntas {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.itens-inclusos {
+    width: 100%;
+    float: left;
+    background-color: #FFB7B7;
+    padding-bottom: 30px;
     @media (min-width: 767px) {
-        padding-top: 66px;
-    }
-    @media only screen and (min-width: 768px) and (max-width: 1024px) {
-        padding-top: 20px;
+        padding-bottom: 50px;
     }
 }
-.perguntas .faq .bg-08 {
-    background: url('../img/oculos_01.png') no-repeat;
-    background-position: 144% 2%;
-    background-size: 50%;
-
-    @media (min-width: 1025px) {
-        background-position: 110% -39%;
-        background-size: initial;
-    }
-
-    @media (min-width: 1600px) {
-        background-position: 110% -39%;
-        background-size: initial;
-    }
-
-    @media only screen and (min-width: 768px) and (max-width: 1024px) {
-        background-position: 145% -14%;
-        background-size: 50%;
-    }
+.itens-inclusos .vidanos30 {
+    margin: -180px auto 0;
 }
-.perguntas .faq .bg-09 {
-    background: url('../img/bg-sol_03.png') no-repeat;
-    background-position: -15% -70%;
-    background-size: 22%;
-
-    @media (min-width: 1025px) {
-        background-position: 8% -103%;
-        background-size: initial;
-    }
-
-    @media (min-width: 1600px) {
-        background-position: 8% -90%;
-        background-size: initial;
-    }
-
-    @media only screen and (min-width: 768px) and (max-width: 1024px) {
-        background-position: -8% -83%;
-        background-size: initial;
-    }
+.itens-inclusos .title-incluso {
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
-.perguntas .faq .bg-10 {
-    background: url('../img/fruta_02.png') no-repeat;
-    background-position: -12% 40%;
-    background-size: 22%;
-
-    @media (min-width: 1025px) {
-        background-position: 7% 5%;
-        background-size: 15%;
-    }
-
-    @media (min-width: 1600px) {
-        background-position: 5% 5%;
-        background-size: initial;
-    }
-
-    @media only screen and (min-width: 768px) and (max-width: 1024px) {
-        background-position: -12% 43%;
-        background-size: 22%;
-    }
-}
-.perguntas .faq .bg-11 {
-    position: absolute;
-    bottom: 0;
-    right: -19%;
-    max-width: 26%;
-
+.itens-inclusos .title-endereco,
+.itens-inclusos .title-ingresso {
+    margin-top: 25px;
+    margin-bottom: 10px;
     @media (min-width: 767px) {
-        bottom: 2%;
-        right: 10%;
-        max-width: 100%;
-    }
-
-    @media only screen and (min-width: 768px) and (max-width: 1024px) {
-        bottom: 0;
-        right: 0;
-        max-width: 100%;
+        margin-top: 40px;
     }
 }
-.perguntas .faq {
-    background: #FFC619;
-    max-width: 1330px;
-    margin: 0 auto 0;
-    position: relative;
-    padding-bottom: 12%;
-    overflow: hidden;
-
-    @media (min-width: 767px) {
-        background: url('../img/bg-faq.svg') no-repeat;
-        background-size: 82%;
-        background-position: top center;
-        /* padding-top: 9%;
-        padding-bottom: 12%; */
-    }
-
-    @media only screen and (min-width: 768px) and (max-width: 1024px) {
-        background: url('../img/bg-faq.svg') no-repeat;
-        background-position: top center;
-        background-size: cover;
-        padding-top: 120px;
-        padding-bottom: 5%;
-    }
-}
-.perguntas .faq .title {
-    font-family: '8 Heavy';
+.itens-inclusos .title {
+    font-family:"ohno-fatface";
     text-transform: uppercase;
-    font-size: 30px;
-    line-height: 35px;
-    color: #2870F6;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 40px;
+    color: #08453D;
     text-align: center;
-    padding: 10% 20px 10px;
+    letter-spacing: 2px;
 
     @media (min-width: 767px) {
         font-size: 50px;
-        line-height: 50px;
-        padding: 9% 0 32px;
+        line-height: 60px;
+    }
+}
+.itens-inclusos .txt {
+    color: #08453D;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 171.875% */
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-skip-ink: auto;
+    text-decoration-color: #F97A33;
+    text-decoration-thickness: 13.5%;
+    text-underline-offset: 15.5%;
+    text-underline-position: from-font;
+    text-align: center;
+
+    @media (min-width: 767px) {
+        font-size: 25px;
+        line-height: 45px;
+    }
+}
+.itens-inclusos .mapa {
+    text-align: center;
+    margin-top: 30px;
+    @media (min-width: 767px) {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+}
+.itens-inclusos .mapa iframe {
+    max-width: 90%;
+    border-radius: 140px;
+    border: 1px solid #08453D !important;
+
+    @media (min-width: 767px) {
+        max-width: 860px;
+        border-radius: 237.5px;
+        border: 3px solid #08453D !important;
+    }
+}
+.itens-inclusos .cta {
+    margin: 30px auto 0;
+    @media (min-width: 767px) {
+        margin: 45px auto 0;
+    }
+}
+
+
+
+
+
+
+
+.faixa {
+    width: 100%;
+    float: left;
+    padding: 20px 0;
+    background: url('../img/@vidanos30.png') #F97A33;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+.como-garantir {
+    background-color:#08453D;
+    width: 100%;
+    float: left;
+    padding: 30px 0 0;
+
+    @media (min-width: 767px) {
+        padding: 50px 0 20px; 
+    }
+}
+.como-garantir .box {
+    max-width: 1000px;
+    background: url('../img/bg-ingresso.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 260px 0 10px 0;
+
+    @media (min-width: 767px) {
+        padding: 500px 0 120px 0;
+    }
+}
+.como-garantir p {
+    color: #08453D;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 171.875% */
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-skip-ink: auto;
+    text-decoration-color: #F97A33;
+    text-decoration-thickness: 13.5%; /* 4.32px */
+    text-underline-offset: 15.5%; /* 4.96px */
+    text-underline-position: from-font;
+
+    @media (min-width: 767px) {
+        font-size: 25px;
+        line-height: 45px;
+    }
+}
+.perguntas {
+    background-color:#08453D;
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+    @media (min-width: 767px) {
+        padding-bottom: 80px;
+    }
+}
+.perguntas .faq {
+    margin: 0 auto 0;
+    position: relative;
+    @media (min-width: 767px) {
+        background: url('../img/bg-faq.png') no-repeat;
+        background-position: center;
+        background-size: contain;
+        padding: 90px 0 30px;
+    }    
+}
+.perguntas .faq .bg-01 {
+    background: url('../img/icone-taca.png') no-repeat;
+    background-position: -25% 50%;
+    background-size: 35%;
+
+    @media (min-width: 767px) {
+        background-position: 15% 50%;
+        background-size: initial;
     }
 
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
-        font-size: 40px;
+        background-position: -10% 50%;
+    }
+}
+.perguntas .faq .title {
+    font-family:"ohno-fatface";
+    text-transform: uppercase;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43px;
+    color: #FFB7B7;
+    text-align: center;
+    letter-spacing: 2px;
+
+    @media (min-width: 767px) {
+        font-size: 50px;
         line-height: 60px;
-        padding: 0 0 30px; 
     }
 }
 .perguntas .faq .tabs {
     max-width: 866px;
-    margin: 0 auto 30px;
+    margin: 20px auto;
     padding: 0 20px;
 
     @media (min-width: 767px) {
-        margin: 0 auto 54px;
+        margin: 50px auto;
     }
 }
 .perguntas .faq h2 {
-    color: #211F1F;
+    color: #FFF;
     text-align: center;
-    font-family: "Boldonse", system-ui;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 40px;
-    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 40px; /* 171.875% */
     text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-skip-ink: auto;
+    text-decoration-color: #FFB7B7;
+    text-decoration-thickness: 13.5%; /* 4.32px */
+    text-underline-offset: 15.5%; /* 4.96px */
+    text-underline-position: from-font;
 
     @media (min-width: 767px) {
-        font-size: 28px;
-        line-height: 28px;
+        font-size: 32px;
+        line-height: 55px;
         margin-bottom: 24px;
     }
 }
 .perguntas .faq p {
-    color: #211F1F;
+    color: #FFF;
     text-align: center;
-    font-family: "Boldonse", system-ui;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 35px;
+    line-height: 35px; /* 250% */
 
     @media (min-width: 767px) {
         font-size: 18px;
@@ -891,11 +1432,20 @@ header .container .info span {
     }
 }
 footer {
+    width: 100%;
+    background-color: #F97A33;
+    padding: 0 0 30px;
+    float: left;
+
+    @media (min-width: 767px) {
+        padding: 10px 0 35px;
+    }
+
     .box {
         width: 310px;
         margin: 30px auto 0;
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         grid-template-rows: 1fr;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
@@ -920,22 +1470,47 @@ footer {
     p {
         color: #FFF;
         text-align: center;
-        font-family: "Boldonse", system-ui;
-        font-size: 13px;
+        font-family:"ohno-fatface";
+        font-weight: 500;
         font-style: normal;
-        font-weight: 400;
-        line-height: 35px;
+        font-size: 25px;
+        line-height: 30px; /* 138.889% */
         margin-top: 13px;
-        margin-bottom: 20px;
 
         @media (min-width: 767px) {
-            font-size: 18px;
+            font-size: 36px;
             line-height: 50px;
-            margin-bottom: 40px;
         }
     }
 }
+.cta {
+    border-radius: 88.862px;
+    border-bottom: 2.666px solid #867400;
+    background: #F97A33;
+    color: #FFB7B7;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    -webkit-text-stroke-width:  1.07px;
+    -webkit-text-stroke-color: #08453D;
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 15px 10px;
+    margin: 30px auto 0;
+    display: table;
 
+    @media (min-width: 767px) {
+        -webkit-text-stroke-width: 2px;
+        font-size: 35px;
+        line-height: 45px;
+        padding: 10px 15px;
+        margin: 30px auto 0;
+    }
+}
 .mobile-only {
     display: none !important;
 }

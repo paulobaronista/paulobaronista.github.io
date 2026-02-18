@@ -1,0 +1,947 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+* {
+    margin:0;
+    padding:0;
+}
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+    font-family: '8 Heavy';
+    src: url('../fonts/8-Heavy.eot');
+    src: url('../fonts/8-Heavy.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/8-Heavy.woff2') format('woff2'),
+         url('../fonts/8-Heavy.woff') format('woff'),
+         url('../fonts/8-Heavy.ttf')  format('truetype'),
+         url('../fonts/8-Heavy.svg#8 Heavy') format('svg');
+}
+@font-face {
+    font-family: 'QuimbyMayoral';
+    src: url('../fonts/Quimby.eot');
+    src: url('../fonts/Quimby.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Quimby.woff2') format('woff2'),
+         url('../fonts/Quimby.woff') format('woff'),
+         url('../fonts/Quimby.ttf')  format('truetype'),
+         url('../fonts/Quimby.svg#QuimbyMayoral') format('svg');
+}
+body {
+    /* background: #FF6200;*/
+    /* background: linear-gradient(0deg,rgba(255, 98, 0, 1) 0%, rgba(255, 128, 0, 1) 100%); */
+    background: url('../img/bg-laranja.svg') no-repeat #FF6200;
+    background-size: 101%;
+}
+.container {
+    /* max-width: 1450px; */
+    max-width: 100%;
+    margin: 0 auto;
+
+    @media (min-width: 1600px) {
+        max-width: 1600px;
+    }
+}
+header .container {
+    background: url('../img/bg-sol.png') no-repeat;
+    background-size: contain;
+    background-position: top center;
+    will-change: background-position;
+}
+header .container .bg-01 {
+    background: url('../img/fruta_01.png') no-repeat;
+    background-position: -16% 200px;
+    background-size: 30%;
+
+    @media (min-width: 1025px) {
+        background-position: left 300px;
+        background-size: initial;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        background-position: -9% 200px;
+    }
+}
+header .container .bg-02 {
+    background: url('../img/oculos_01.png') no-repeat;
+    background-position: right 25px;
+    background-size: 30%;
+
+    @media (min-width: 1025px) {
+        background-position: right 25px;
+        background-size: initial;
+    }
+}
+header .container .logo-terra-verao {
+    margin: 0 auto;
+    display: block;
+    max-width: 180px;
+    width: 100%;
+    padding-top: 20px;
+
+    @media (min-width: 767px) {
+        max-width: 385px;
+        padding-top: 40px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        max-width: 290px;
+        padding-top: 30px;
+    }
+}
+header .container .datas {
+    color: #FF6200;
+    font-family: "Boldonse", system-ui;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    border-radius: 48px;
+    background: #FFC619;
+    display: table;
+    margin: 20px auto 0;
+    padding: 3px 20px;
+
+    @media (min-width: 767px) {
+        font-size: 32px;
+        line-height: 60px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+header .container .endereco {
+    color: #FFF;
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+
+    @media (min-width: 767px) {
+        font-size: 24px;
+        line-height: 60px;
+        margin-top: 16px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 16px;
+    }
+}
+header .container .info {
+    color: #FFF;
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+    font-size: 16px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+    @media (min-width: 767px) {
+        font-size: 28px;
+        line-height: 48px;
+        margin-top: 60px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 20px;
+        line-height: 40px;
+        margin-top: 30px;
+    }
+}
+header .container .info span {
+    font-family: '8 Heavy';
+    font-size: 30px;
+    line-height: 50px;
+
+    @media (min-width: 767px) {
+        font-size: 50px;
+        line-height: 75px; 
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 40px;
+        line-height: 60px; 
+    }
+}
+.sobre-evento {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    @media (min-width: 767px) {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 25px;
+        line-height: 30px; 
+    }
+}
+.sobre-evento .container .bg-03 {
+    background: url('../img/chinelo_01.png') no-repeat;
+    background-position: 120% 150px;
+    background-size: 30%;
+
+    @media (min-width: 1025px) {
+        background-position: 86% 225px;
+        background-size: initial;
+    }
+}
+.sobre-evento .cta {
+    color: #FFF;
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 48px;
+    background: #2870F6;
+    padding: 14px 45px;
+    text-align: center;
+    display: table;
+    margin: 0 auto 0;
+    text-decoration: none;
+    z-index: 10;
+    position: relative;
+    transition: 0.3s;
+
+    @media (min-width: 767px) {
+        font-size: 25px;
+        line-height: 30px; 
+        padding: 14px 70px;
+        margin: 10px auto 0;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 25px;
+        line-height: 30px; 
+    }
+}
+.sobre-evento .cta:hover {
+    background: #1e53b8;
+}
+.sobre-evento .img-sobre-evento {
+    margin: -16px auto 0;
+    max-width: 88%;
+
+    @media (min-width: 767px) {
+        margin: -35px auto 0;
+        max-width: 100%;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        margin: -35px auto 0;
+        font-size: 25px;
+        line-height: 30px;
+        max-width: 100%;
+    }
+}
+.sobre-evento .title {
+    font-family: '8 Heavy';
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 50px;
+    color: #FFF;
+    text-align: center;
+    margin-top: 10px;
+
+    @media (min-width: 767px) {
+        font-size: 50px;
+        line-height: 75px;
+        margin-top: 20px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 40px;
+        line-height: 60px; 
+    }
+}
+.sobre-evento .description {
+    color: #FFF;
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 90%;
+    margin: 0 auto;
+
+    @media (min-width: 767px) {
+        font-size: 17px;
+        line-height: 40px;
+        max-width: 775px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 18px;
+        line-height: 40px;
+        max-width: 687px;
+    }
+}
+.programacao {
+    background: url('../img/bg-azul.svg') no-repeat #2870F6;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+    @media (min-width: 767px) {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        padding-top: 10px;
+    }
+}
+.programacao .container,
+.patrocinadores .container,
+.perguntas .container {
+    position: relative;
+}
+.programacao .container .bg-05 {
+    background: url('../img/guarda_sol_01.png') no-repeat;
+    background-position: -10% 110%;
+    background-size: 30%;
+
+    @media (min-width: 1025px) {
+        background-position: -10% 110%;
+        background-size: initial;
+    }
+
+    @media (min-width: 1600px) {
+        background-position: 0 110%;
+        background-size: 20%;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        background-position: -10% 130%;
+    }
+}
+.programacao .container .bg-06 {
+    background: url('../img/fruta_03.png') no-repeat;
+    background-position: 110% 120%;
+    background-size: 20%;
+
+    @media (min-width: 1025px) {
+        background-position: 98% 105%;
+        background-size: initial;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        background-position: 110% 130%;
+    }
+}
+.programacao .title {
+    font-family: '8 Heavy';
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 50px;
+    color: #FFF;
+    text-align: center;
+
+    @media (min-width: 767px) {
+        font-size: 50px;
+        line-height: 75px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 40px;
+        line-height: 60px; 
+    }
+}
+.programacao .title-1 {
+    max-width: 260px;
+    margin: 30px auto 32px;
+    line-height: 30px;
+    @media (min-width: 767px) {
+        max-width: 100%;
+    }
+}
+.programacao .title-2 {
+    margin-top: 30px;
+    @media (min-width: 767px) {
+        margin-top: 120px;
+    }
+}
+.programacao .description {
+    color: #FFF;
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 90%;
+    margin: 0 auto;
+
+    @media (min-width: 767px) {
+        font-size: 17px;
+        line-height: 40px;
+        max-width: 780px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 18px;
+        line-height: 40px;
+        max-width: 687px;
+    }
+}
+.programacao .cta {
+    color: #FFF;
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 48px;
+    background: #FF6200;
+    padding: 14px 45px;
+    text-align: center;
+    display: table;
+    margin: 15px auto 0;
+    text-decoration: none;
+    z-index: 10;
+    position: relative;
+    transition: 0.3s;
+
+    @media (min-width: 767px) {
+        font-size: 25px;
+        line-height: 30px; 
+        padding: 14px 70px;
+        margin: 25px auto 0;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 25px;
+        line-height: 30px; 
+    }
+}
+.programacao .cta:hover {
+    background: #e35d0a;
+}
+.programacao .bg-04 {
+    position: absolute;
+    top: -3%;
+    left: 0;
+    max-width: 28%;
+
+    @media (min-width: 767px) {
+        top: -8%;
+        left: 10%;
+        max-width: 100%;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        top: -6%;
+        left: 0;
+        max-width: 22%;
+    }
+}
+.programacao .table {
+    background: url('../img/bg-tabela.svg') no-repeat;
+    background-size: cover;
+    background-position: top center;
+    max-width: 1330px;
+    margin: 0 auto;
+    padding-top: 25%;
+    padding-bottom: 30%;
+
+    @media (min-width: 767px) {
+        background-size: 90%;
+        background-position: top center;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        padding-top: 12%;
+        background-size: cover;
+        padding-top: 13%;
+        padding-bottom: 17%;
+    }
+}
+.programacao .table .title {
+    font-family: '8 Heavy';
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 50px;
+    color: #2870F6;
+    text-align: center;
+
+    @media (min-width: 767px) {
+        font-size: 50px;
+        line-height: 50px;
+        padding-bottom: 15px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 40px;
+        line-height: 60px;
+        padding-bottom: 0; 
+    }
+}
+.programacao .table .wrapper {
+    position: relative;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.programacao .table .wrapper table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 8px;
+    margin: 0 auto;
+}
+.programacao .table .wrapper th, td {
+    border: 2px solid #FF6200;
+}
+.programacao .table .wrapper table tbody tr td {
+    padding: 7.255px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: initial;
+    color: #211F1F;
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    background-color: #ffc619;
+
+    @media (min-width: 767px) {
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
+.programacao .table .wrapper table tbody tr td:first-child {
+    min-width: 130px;
+    max-width: 130px;
+    white-space: initial;
+    color: #FFF;
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    border-radius: 7.255px 0 0 7.255px;
+    background: #FF8000;
+    border: none;
+
+    @media (min-width: 767px) {
+        min-width: 200px;
+        max-width: 200px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        min-width: 170px;
+        max-width: 170px;
+    }
+}
+.programacao .table .wrapper table thead tr th {
+    text-align: center;
+    vertical-align: middle;
+    color: #FFF;
+    font-family: "Boldonse", system-ui;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    border-radius: 7.255px 7.255px 0 0;
+    background: #FF8000;
+    border: none;
+    padding: 5px 30px;
+
+    @media (min-width: 767px) {
+        font-size: 15px;
+        line-height: 30px;
+        padding: 5px 0;
+    }
+}
+.programacao .table .wrapper table thead tr th:first-child {
+    background: none;
+    border: none;
+}
+/* .programacao .table .wrapper table .sticky-col {
+    position: -webkit-sticky;
+    position: sticky;
+}
+.programacao .table .wrapper table .first-col {
+    left: 0;
+} */
+.programacao .mapa {
+    max-width: 90%;
+    margin: 20px auto 0;
+
+    @media (min-width: 767px) {
+        max-width: 860px;
+        margin: 40px auto 0;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        max-width: 90%;
+    }
+}
+.patrocinadores .bg-07 {
+    background: url('../img/bg-sol_02.png') no-repeat;
+    background-position: 130% 110%;
+    background-size: 40%;
+
+    @media (min-width: 1025px) {
+        background-position: 115% 170%;
+        background-size: initial;
+    }
+
+    @media (min-width: 1600px) {
+        background-position: 100% 190%;
+        background-size: 22%;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        background-position: 130% 160%;
+    }
+}
+.patrocinadores .title {
+    font-family: '8 Heavy';
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 50px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 20px;
+
+    @media (min-width: 767px) {
+        padding-top: 52px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        padding-top: 52px;
+        font-size: 40px;
+        line-height: 60px; 
+    }
+}
+.patrocinadores .box {
+    max-width: 860px;
+    margin: 15px auto 25px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 40px;
+
+    @media (min-width: 767px) {
+        margin: 30px auto 35px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+        align-items: center;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        max-width: 650px;
+    }
+}
+.patrocinadores .box img {
+    margin: 0 auto;
+}
+
+.video .container {
+    max-width: 90%;
+    margin-bottom: 15px;
+    @media (min-width: 767px) {
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+}
+.perguntas {
+    @media (min-width: 767px) {
+        padding-top: 66px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        padding-top: 20px;
+    }
+}
+.perguntas .faq .bg-08 {
+    background: url('../img/oculos_01.png') no-repeat;
+    background-position: 144% 2%;
+    background-size: 50%;
+
+    @media (min-width: 1025px) {
+        background-position: 110% -39%;
+        background-size: initial;
+    }
+
+    @media (min-width: 1600px) {
+        background-position: 110% -39%;
+        background-size: initial;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        background-position: 145% -14%;
+        background-size: 50%;
+    }
+}
+.perguntas .faq .bg-09 {
+    background: url('../img/bg-sol_03.png') no-repeat;
+    background-position: -15% -70%;
+    background-size: 22%;
+
+    @media (min-width: 1025px) {
+        background-position: 8% -103%;
+        background-size: initial;
+    }
+
+    @media (min-width: 1600px) {
+        background-position: 8% -90%;
+        background-size: initial;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        background-position: -8% -83%;
+        background-size: initial;
+    }
+}
+.perguntas .faq .bg-10 {
+    background: url('../img/fruta_02.png') no-repeat;
+    background-position: -12% 40%;
+    background-size: 22%;
+
+    @media (min-width: 1025px) {
+        background-position: 7% 5%;
+        background-size: 15%;
+    }
+
+    @media (min-width: 1600px) {
+        background-position: 5% 5%;
+        background-size: initial;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        background-position: -12% 43%;
+        background-size: 22%;
+    }
+}
+.perguntas .faq .bg-11 {
+    position: absolute;
+    bottom: 0;
+    right: -19%;
+    max-width: 26%;
+
+    @media (min-width: 767px) {
+        bottom: 2%;
+        right: 10%;
+        max-width: 100%;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        bottom: 0;
+        right: 0;
+        max-width: 100%;
+    }
+}
+.perguntas .faq {
+    background: #FFC619;
+    max-width: 1330px;
+    margin: 0 auto 0;
+    position: relative;
+    padding-bottom: 12%;
+    overflow: hidden;
+
+    @media (min-width: 767px) {
+        background: url('../img/bg-faq.svg') no-repeat;
+        background-size: 82%;
+        background-position: top center;
+        /* padding-top: 9%;
+        padding-bottom: 12%; */
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        background: url('../img/bg-faq.svg') no-repeat;
+        background-position: top center;
+        background-size: cover;
+        padding-top: 120px;
+        padding-bottom: 5%;
+    }
+}
+.perguntas .faq .title {
+    font-family: '8 Heavy';
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 35px;
+    color: #2870F6;
+    text-align: center;
+    padding: 10% 20px 10px;
+
+    @media (min-width: 767px) {
+        font-size: 50px;
+        line-height: 50px;
+        padding: 9% 0 32px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 40px;
+        line-height: 60px;
+        padding: 0 0 30px; 
+    }
+}
+.perguntas .faq .tabs {
+    max-width: 866px;
+    margin: 0 auto 30px;
+    padding: 0 20px;
+
+    @media (min-width: 767px) {
+        margin: 0 auto 54px;
+    }
+}
+.perguntas .faq h2 {
+    color: #211F1F;
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 10px;
+    text-decoration-line: underline;
+
+    @media (min-width: 767px) {
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 24px;
+    }
+}
+.perguntas .faq p {
+    color: #211F1F;
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+
+    @media (min-width: 767px) {
+        font-size: 18px;
+        line-height: 45px;
+    }
+}
+footer {
+    .box {
+        width: 310px;
+        margin: 30px auto 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+
+        @media (min-width: 767px) {
+            margin: 30px auto 0;
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            margin: 30px auto 0;
+        }
+
+        img {
+            margin: 0 auto;
+            max-width: 50%;
+            @media (min-width: 767px) {
+                max-width: 100%;
+            }
+        }
+    }
+
+    p {
+        color: #FFF;
+        text-align: center;
+        font-family: "Boldonse", system-ui;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        margin-top: 13px;
+        margin-bottom: 20px;
+
+        @media (min-width: 767px) {
+            font-size: 18px;
+            line-height: 50px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.mobile-only {
+    display: none !important;
+}
+
+@media (min-width: 767px) {
+    .mobile-only {
+        display: block !important;
+    }
+}
