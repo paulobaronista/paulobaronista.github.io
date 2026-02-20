@@ -303,7 +303,7 @@ header img {
     max-width: 30%;
 
     @media (min-width: 767px) {
-        top: -18%;
+        top: -13%;
         left: 27%;
         max-width: 12%;
     }
@@ -320,8 +320,8 @@ header img {
     background-size: 20%;
 
     @media (min-width: 1024px) {
-        background-position: 44% 88%;
-        background-size: inherit;
+        background-position: 47% 74%;
+        background-size: 6%;
     }
 }
 .itens-inclusos .box-endereco {
@@ -671,7 +671,7 @@ header img {
 
     @media (min-width: 1024px) {
         background-position: 6% 17%;
-        background-size: initial;
+        background-size: 20%;
     }
 }
 .perguntas .faq .bg-02 {
@@ -681,7 +681,7 @@ header img {
 
     @media (min-width: 1024px) {
         background-position: 94% 100%;
-        background-size: initial;
+        background-size: 20%;
     }
 }
 .perguntas .faq .tt_duvidas_frequentes {
