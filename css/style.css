@@ -95,28 +95,28 @@ header img {
 .home .bg-01 {
     @media (min-width: 1024px) {
         background: url('../img/bg_home-01.png') no-repeat;
-        background-position: 15% 10%;
+        background-position: 8% 10%;
         background-size: inherit;
     }
 }
 .home .bg-02 {
     @media (min-width: 1024px) {
         background: url('../img/bg_home-02.png') no-repeat;
-        background-position: 85% 8%;
+        background-position: 92% 8%;
         background-size: inherit;
     }
 }
 .home .bg-03 {
     @media (min-width: 1024px) {
         background: url('../img/depoimentos.png') no-repeat;
-        background-position: 15% 85%;
+        background-position: 3% 85%;
         background-size: inherit;
     }
 }
 .home .bg-04 {
     @media (min-width: 1024px) {
         background: url('../img/depoimentos.png') no-repeat;
-        background-position: 85% 85%;
+        background-position: 97% 85%;
         background-size: inherit;
     }
 }
@@ -272,14 +272,14 @@ header img {
 .itens-inclusos .box-01 .bg-02 {
     @media (min-width: 1024px) {
         background: url('../img/foto_01.png') no-repeat;
-        background-position: 0% 90%;
+        background-position: 0% 40%;
         background-size: 19%;
     }
 }
 .itens-inclusos .box-01 .bg-03 {
     @media (min-width: 1024px) {
         background: url('../img/foto_02.png') no-repeat;
-        background-position: 100% 90%;
+        background-position: 100% 40%;
         background-size: 19%;
     }
 }
@@ -670,7 +670,7 @@ header img {
     background-size: 35%;
 
     @media (min-width: 1024px) {
-        background-position: 17% 17%;
+        background-position: 6% 17%;
         background-size: initial;
     }
 }
@@ -680,7 +680,7 @@ header img {
     background-size: 35%;
 
     @media (min-width: 1024px) {
-        background-position: 84% 100%;
+        background-position: 94% 100%;
         background-size: initial;
     }
 }
