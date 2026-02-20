@@ -273,14 +273,14 @@ header img {
     @media (min-width: 1024px) {
         background: url('../img/foto_01.png') no-repeat;
         background-position: 0% 40%;
-        background-size: 19%;
+        background-size: 23%;
     }
 }
 .itens-inclusos .box-01 .bg-03 {
     @media (min-width: 1024px) {
         background: url('../img/foto_02.png') no-repeat;
         background-position: 100% 40%;
-        background-size: 19%;
+        background-size: 23%;
     }
 }
 .itens-inclusos .box-02 {
